@@ -4,8 +4,12 @@ Platforms: PC
 Deadline: TO_DO
 De facut un fel de impartire a task-urilor: --))
 Game Description: 
-Harta cu maximum 40 playeri alesi in mod random. Fiecarui player ii este asociat un set minim de abilitati, bani si HP 
-a) cu banii la inceput/ pe parcursul jocului 
+Harta cu maximum 40 playeri alesi in mod random(dar playerii inainte de a sta in coada de asteptare pentru brawl isi vor alege tipul de 
+tanc: LIGHT, MEDIUM, LARGE. Fiecarui player ii este asociat un set minim de abilitati, bani si HP 
+a) cu banii la inceput/ pe parcursul jocului fiecare player isi va "cumpara/ insusi" anumite atasamente posibile
+b) in ceea ce priveste , fiecarui player ii este asociat un numar minim de abilitati posibile (Exemplu: un numar minim fixat de proiec-
+tile posibil pentru shooting).
+c) HP --- initial un anumit numar de HP pentru fiecare player
 
 1. Player Fantasy
 2. Core Features
