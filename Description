@@ -2,19 +2,56 @@ World of Tanks
 Keywords: Strategy , Brawler, 3D, Multiplayer, Time-Based
 Platforms: PC 
 Deadline: TO_DO
-De facut un fel de impartire a task-urilor: --))
-Game Description: 
-Harta cu maximum 40 playeri alesi in mod random(dar playerii inainte de a sta in coada de asteptare pentru brawl isi vor alege tipul de 
-tanc: LIGHT, MEDIUM, LARGE. Fiecarui player ii este asociat un set minim de abilitati, bani si HP 
-a) cu banii la inceput/ pe parcursul jocului fiecare player isi va "cumpara/ insusi" anumite atasamente posibile
-b) in ceea ce priveste , fiecarui player ii este asociat un numar minim de abilitati posibile (Exemplu: un numar minim fixat de proiec-
-tile posibil pentru shooting).
-c) HP --- initial un anumit numar de HP pentru fiecare player
+De facut un fel de impartire a task-urilor: TO_DO -- dar dupa ce aratam documentul de design
 
 1. Player Fantasy
+   Harta cu maximum 40 playeri alesi in mod random(dar playerii inainte de a sta in coada de asteptare pentru brawl isi vor alege tipul de 
+   tanc: LIGHT, MEDIUM, LARGE. Fiecarui player ii este asociat o tara de care apartine(Rusia, Slovacia, etc) și  un set minim de abilitati, bani si HP
+a) cu banii la inceput/ pe parcursul jocului fiecare player isi va "cumpara/ insusi" anumite atasamente disponibile
+b) in ceea ce priveste , fiecarui player ii este asociat un numar minim de abilitati posibile (Exemplu: un numar minim fixat de proiec-
+tile posibil pentru shooting).
+c) HP --- initial un anumit numar de HP pentru fiecare player, care scade în funcție de damage-ul primit
+
 2. Core Features
+   Principalele activitati pe care player-ul le face in scopul de a castiga jocul sunt: 
+   A. își alege diverse atasamente(Ex: Proiectile mai mari, mai mici, cu precizie mai mica
+   sau mai mare) pe care le asociază cu tipul de tanc ales
+   B. își poate face alianțe pentru a înfrânge inamici mai puternici(Ex: 2 tancuri MEDIUM se aliaza impotriva unuia de tip LARGE cu mentiunea
+   ca pe parcursul acestei aliante, nu poti sa incerci sa iti omori aliatul
+   C. poate descoperi diverse posibilitati de upgrade pe baza reward-urilor primite in urma infrangerilor 
+   
 3. Storyline
+   %Aici incearca tu George sa dezvolti pentru ca nu prea stiu despre ce e vorba in joc in afara de strategii de razboi si tancuri 
+   si mna:))) 
+   
 4. Game Flow
+   Ideal, ne propunem ca in cadru jocului sa existe si un tutorial pentru jucator deoarece jocul este destul de complex si poate 
+   nu este totul chiar atat de intuitiv pe cat ne vom propune:)
+   Nivele de joc nu exista, insa exista nivele de experienta (astfel, daca utilizatorul acumuleaza un anumit numar de puncte x in urma 
+   unui joc, i se vor aduaga y(x) puncte la nivelul de HP si va castiga z(x) bani) .
+   După cum am spus, cu banii câstigați și cu nivelul de HP, utilizatorul își poate îmbunătăți tancul sau cumpăra noi atașamente.
+   
+   
 5. Controls
+   W, A, S , D --- pentru miscare sus-jos , stanga-dreapta
+   F2 - meniu incarcare atasamente (Se poate selecta o combinatie de atasamente)
+   F3 - creare alianta / distrugere inamic
+   Mouse Click Stanga -- selectare target + F3 
+   C - intrarea in ”unitatea de control a tancului” unde poti da upgrade/ cumpara noi abilitati etc
+   Esc - iesire catre meniul principal 
+   !Atentie -- iesirea dintr-o sesiune de joc se va face cu atentionarea jucatorului de eventuala pierdere a progresului obtinut in cadrul
+   sesiunii respective de joc
+   
 6. UX/UI
+   In ceea ce priveste , interfata cu utilizatorul , vom avea efecte vizuale pentru coliziune/ shooting bine definite si eventual un 
+   efect audio specific pentru fiecare tip de shooting(Ex: Pentru un proiectil cu precizie mare, nu vom avea sunet, iar pentru un 
+   proiectil cu precizie mica(folosit pentru distragerea jucatorilor) , vom avea sunete). 
+   ///Aici ar mai fi de completat daca va mai ganditi la ceva
+   
 7. Menus 
+   Vom avea meniul de intrare in joc cu trei optiuni : Start / Optiuni / Exit
+   Daca vom apasa Start , vom intta in joc si daca nu avem deja ales un tip de tanc , ne vom alege. 
+   In cazul in care avem deja un tanc, ne putem alege un altul , dar HP-ul asociat aceluia va fi minim (practic se ia totul de la 0) . 
+   Se poate alege si tancul deja existent.
+   Ne putem alege harta in care dorim sa ajungem folsind optiunea Custom Play / putem alege Random Play si utilizatorul va fi adus 
+   intr-o harta aleasa in mod aleator.
